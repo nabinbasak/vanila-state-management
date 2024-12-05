@@ -7,7 +7,7 @@ const Name = () => {
   return (
     <div>
       <h2>Name: {state.reducerName.name}</h2>
-      <button onClick={() => dispatch({ type: "SET_NAME", payload: "John" })}>
+      <button onClick={() => dispatch({ type: "SET_NAME", payload: "Nabin" })}>
         Set Name
       </button>
       <button onClick={() => dispatch({ type: "CLEAR_NAME" })}>
